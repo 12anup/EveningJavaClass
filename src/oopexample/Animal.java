@@ -28,6 +28,7 @@ public class Animal {
 		Animal animal1=new Animal("Dog",4,"grey");
 		animal1.display(animal1);
 
+		
 	}
 
 }
