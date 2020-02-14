@@ -5,10 +5,10 @@ public class Animal {
 	int age;
 	String color;
 	
-	Animal(String n,int a,String c){
-		name=n;
-		age=a;
-		color=c;
+	Animal(String name,int age,String color){
+		this.name=name;
+		this.age=age;
+		this.color=color;
 	}
 	
 	Animal(){
@@ -18,6 +18,10 @@ public class Animal {
     void display(Animal a) {
 		System.out.println("The name of animal is "+a.name +"age is "+a.age+"color is"+a.color);
 	}
+    
+//    void display() {
+//    	System.out.println("nothing to display");
+//    }
 
 	public static void main(String[] args) {
 		Animal animal=new Animal(); //default constructor
