@@ -15,8 +15,8 @@ public class Animal {
 		
 	}
 	
-    void display(Animal a) {
-		System.out.println("The name of animal is "+a.name +"age is "+a.age+"color is"+a.color);
+    void display() {
+		System.out.println("The name of animal is "+name +"age is "+age+"color is"+color);
 	}
     
 //    void display() {
@@ -28,11 +28,9 @@ public class Animal {
 		animal.name="cat";
 		animal.age=2;
 		animal.color="black";
-		animal.display(animal);
+		animal.display();
 		Animal animal1=new Animal("Dog",4,"grey");
-		animal1.display(animal1);
-
-		
+		animal1.display();		
 	}
 
 }
